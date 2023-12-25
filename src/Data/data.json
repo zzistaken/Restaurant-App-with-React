@@ -1,0 +1,978 @@
+{
+  "categories": [
+    { "id": 0, "categoryName": "All" },
+    { "id": 1, "categoryName": "Breakfast" },
+    { "id": 2, "categoryName": "Soup" },
+    { "id": 3, "categoryName": "Salad" },
+    { "id": 4, "categoryName": "Main Course" },
+    { "id": 5, "categoryName": "Dessert" },
+    { "id": 6, "categoryName": "Appetizer" },
+    { "id": 7, "categoryName": "Seafood" },
+    { "id": 8, "categoryName": "Vegetarian" },
+    { "id": 9, "categoryName": "Pasta" },
+    { "id": 10, "categoryName": "Fast Food" }
+  ],
+
+  "meals": [
+    {
+      "id": 1,
+      "categoryId": 1,
+      "productName": "Omelette",
+      "ingredients": "Eggs, cheese, tomatoes, bell peppers",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Omelet_With_Fixings.jpg/1280px-Omelet_With_Fixings.jpg",
+      "price": 15
+    },
+    {
+      "id": 2,
+      "categoryId": 1,
+      "productName": "Menemen",
+      "ingredients": "Eggs, tomatoes, bell peppers, sausage",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/MenemenIstanbul.jpg",
+      "price": 18
+    },
+    {
+      "id": 3,
+      "categoryId": 1,
+      "productName": "Pancakes",
+      "ingredients": "Flour, milk, eggs, syrup",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Blueberry_pancakes_%283%29.jpg/220px-Blueberry_pancakes_%283%29.jpg",
+      "price": 12
+    },
+    {
+      "id": 4,
+      "categoryId": 1,
+      "productName": "French Toast",
+      "ingredients": "Bread, eggs, milk, cinnamon",
+      "imageUrl": "french_toast.jpg",
+      "price": 10
+    },
+    {
+      "id": 5,
+      "categoryId": 1,
+      "productName": "Avocado Toast",
+      "ingredients": "Bread, avocado, poached egg",
+      "imageUrl": "avocado_toast.jpg",
+      "price": 14
+    },
+    {
+      "id": 6,
+      "categoryId": 1,
+      "productName": "Bagel with Cream Cheese",
+      "ingredients": "Bagel, cream cheese, salmon",
+      "imageUrl": "bagel.jpg",
+      "price": 16
+    },
+    {
+      "id": 7,
+      "categoryId": 1,
+      "productName": "Fruit Salad",
+      "ingredients": "Assorted fruits, honey, mint",
+      "imageUrl": "fruit_salad.jpg",
+      "price": 20
+    },
+    {
+      "id": 8,
+      "categoryId": 1,
+      "productName": "Smoothie Bowl",
+      "ingredients": "Mixed berries, yogurt, granola",
+      "imageUrl": "smoothie_bowl.jpg",
+      "price": 22
+    },
+    {
+      "id": 9,
+      "categoryId": 1,
+      "productName": "Egg Benedict",
+      "ingredients": "English muffin, poached egg, hollandaise sauce",
+      "imageUrl": "egg_benedict.jpg",
+      "price": 18
+    },
+    {
+      "id": 10,
+      "categoryId": 1,
+      "productName": "Waffles",
+      "ingredients": "Waffle batter, syrup, whipped cream",
+      "imageUrl": "waffles.jpg",
+      "price": 16
+    },
+    {
+      "id": 11,
+      "categoryId": 1,
+      "productName": "Granola Parfait",
+      "ingredients": "Granola, yogurt, mixed berries",
+      "imageUrl": "granola_parfait.jpg",
+      "price": 14
+    },
+    {
+      "id": 12,
+      "categoryId": 1,
+      "productName": "Egg Wrap",
+      "ingredients": "Tortilla, eggs, cheese, veggies",
+      "imageUrl": "egg_wrap.jpg",
+      "price": 15
+    },
+    {
+      "id": 13,
+      "categoryId": 2,
+      "productName": "Lentil Soup",
+      "ingredients": "Lentils, onions, carrots, salt",
+      "imageUrl": "lentil_soup.jpg",
+      "price": 10
+    },
+    {
+      "id": 14,
+      "categoryId": 2,
+      "productName": "Tomato Soup",
+      "ingredients": "Tomatoes, onions, garlic, herbs",
+      "imageUrl": "tomato_soup.jpg",
+      "price": 12
+    },
+    {
+      "id": 15,
+      "categoryId": 2,
+      "productName": "Chicken Noodle Soup",
+      "ingredients": "Chicken, noodles, vegetables, broth",
+      "imageUrl": "chicken_noodle_soup.jpg",
+      "price": 14
+    },
+    {
+      "id": 16,
+      "categoryId": 2,
+      "productName": "Mushroom Soup",
+      "ingredients": "Mushrooms, onions, cream, thyme",
+      "imageUrl": "mushroom_soup.jpg",
+      "price": 16
+    },
+    {
+      "id": 17,
+      "categoryId": 2,
+      "productName": "Minestrone",
+      "ingredients": "Tomatoes, beans, pasta, vegetables",
+      "imageUrl": "minestrone.jpg",
+      "price": 15
+    },
+    {
+      "id": 18,
+      "categoryId": 2,
+      "productName": "Vegetable Soup",
+      "ingredients": "Assorted vegetables, broth, herbs",
+      "imageUrl": "vegetable_soup.jpg",
+      "price": 12
+    },
+    {
+      "id": 19,
+      "categoryId": 2,
+      "productName": "Clam Chowder",
+      "ingredients": "Clams, potatoes, onions, bacon",
+      "imageUrl": "clam_chowder.jpg",
+      "price": 18
+    },
+    {
+      "id": 20,
+      "categoryId": 2,
+      "productName": "Pumpkin Soup",
+      "ingredients": "Pumpkin, onions, garlic, spices",
+      "imageUrl": "pumpkin_soup.jpg",
+      "price": 13
+    },
+    {
+      "id": 21,
+      "categoryId": 2,
+      "productName": "Hot and Sour Soup",
+      "ingredients": "Chicken, tofu, mushrooms, bamboo shoots",
+      "imageUrl": "hot_sour_soup.jpg",
+      "price": 16
+    },
+    {
+      "id": 22,
+      "categoryId": 2,
+      "productName": "Borscht",
+      "ingredients": "Beets, cabbage, potatoes, dill",
+      "imageUrl": "borscht.jpg",
+      "price": 14
+    },
+    {
+      "id": 23,
+      "categoryId": 2,
+      "productName": "Gazpacho",
+      "ingredients": "Tomatoes, cucumbers, peppers, onions",
+      "imageUrl": "gazpacho.jpg",
+      "price": 15
+    },
+    {
+      "id": 24,
+      "categoryId": 2,
+      "productName": "Cream of Broccoli Soup",
+      "ingredients": "Broccoli, cream, onions, garlic",
+      "imageUrl": "broccoli_soup.jpg",
+      "price": 17
+    },
+    {
+      "id": 25,
+      "categoryId": 3,
+      "productName": "Caesar Salad",
+      "ingredients": "Romaine lettuce, croutons, parmesan, Caesar dressing",
+      "imageUrl": "caesar_salad.jpg",
+      "price": 18
+    },
+    {
+      "id": 26,
+      "categoryId": 3,
+      "productName": "Greek Salad",
+      "ingredients": "Cucumbers, tomatoes, olives, feta cheese",
+      "imageUrl": "greek_salad.jpg",
+      "price": 15
+    },
+    {
+      "id": 27,
+      "categoryId": 3,
+      "productName": "Cobb Salad",
+      "ingredients": "Chicken, bacon, avocado, blue cheese",
+      "imageUrl": "cobb_salad.jpg",
+      "price": 20
+    },
+    {
+      "id": 28,
+      "categoryId": 3,
+      "productName": "Caprese Salad",
+      "ingredients": "Tomatoes, mozzarella, basil, balsamic glaze",
+      "imageUrl": "caprese_salad.jpg",
+      "price": 16
+    },
+    {
+      "id": 29,
+      "categoryId": 3,
+      "productName": "Chicken Caesar Salad",
+      "ingredients": "Grilled chicken, romaine lettuce, croutons, parmesan",
+      "imageUrl": "chicken_caesar_salad.jpg",
+      "price": 22
+    },
+    {
+      "id": 30,
+      "categoryId": 3,
+      "productName": "Spinach Salad",
+      "ingredients": "Spinach, strawberries, almonds, vinaigrette",
+      "imageUrl": "spinach_salad.jpg",
+      "price": 14
+    },
+    {
+      "id": 31,
+      "categoryId": 3,
+      "productName": "Nicoise Salad",
+      "ingredients": "Tuna, olives, potatoes, green beans",
+      "imageUrl": "nicoise_salad.jpg",
+      "price": 21
+    },
+    {
+      "id": 32,
+      "categoryId": 3,
+      "productName": "Waldorf Salad",
+      "ingredients": "Apples, grapes, walnuts, celery",
+      "imageUrl": "waldorf_salad.jpg",
+      "price": 17
+    },
+    {
+      "id": 33,
+      "categoryId": 3,
+      "productName": "Quinoa Salad",
+      "ingredients": "Quinoa, cucumbers, tomatoes, feta cheese",
+      "imageUrl": "quinoa_salad.jpg",
+      "price": 19
+    },
+    {
+      "id": 34,
+      "categoryId": 3,
+      "productName": "Thai Beef Salad",
+      "ingredients": "Beef, lettuce, carrots, peanuts",
+      "imageUrl": "thai_beef_salad.jpg",
+      "price": 23
+    },
+    {
+      "id": 35,
+      "categoryId": 3,
+      "productName": "Mango Avocado Salad",
+      "ingredients": "Mango, avocado, arugula, lime dressing",
+      "imageUrl": "mango_avocado_salad.jpg",
+      "price": 16
+    },
+    {
+      "id": 36,
+      "categoryId": 3,
+      "productName": "Classic Garden Salad",
+      "ingredients": "Mixed greens, tomatoes, carrots, ranch dressing",
+      "imageUrl": "garden_salad.jpg",
+      "price": 14
+    },
+    {
+      "id": 37,
+      "categoryId": 4,
+      "productName": "Grilled Salmon",
+      "ingredients": "Salmon fillet, lemon, herbs, olive oil",
+      "imageUrl": "grilled_salmon.jpg",
+      "price": 25
+    },
+    {
+      "id": 38,
+      "categoryId": 4,
+      "productName": "Chicken Alfredo",
+      "ingredients": "Chicken breast, fettuccine, Alfredo sauce",
+      "imageUrl": "chicken_alfredo.jpg",
+      "price": 22
+    },
+    {
+      "id": 39,
+      "categoryId": 4,
+      "productName": "Beef Stroganoff",
+      "ingredients": "Beef sirloin, mushrooms, onions, sour cream",
+      "imageUrl": "beef_stroganoff.jpg",
+      "price": 28
+    },
+    {
+      "id": 40,
+      "categoryId": 4,
+      "productName": "Vegetable Stir-Fry",
+      "ingredients": "Assorted vegetables, tofu, soy sauce",
+      "imageUrl": "vegetable_stir_fry.jpg",
+      "price": 18
+    },
+    {
+      "id": 41,
+      "categoryId": 4,
+      "productName": "Shrimp Scampi",
+      "ingredients": "Shrimp, garlic, white wine, pasta",
+      "imageUrl": "shrimp_scampi.jpg",
+      "price": 26
+    },
+    {
+      "id": 42,
+      "categoryId": 4,
+      "productName": "Lamb Chops",
+      "ingredients": "Lamb chops, rosemary, garlic, olive oil",
+      "imageUrl": "lamb_chops.jpg",
+      "price": 30
+    },
+    {
+      "id": 43,
+      "categoryId": 4,
+      "productName": "Eggplant Parmesan",
+      "ingredients": "Eggplant, marinara sauce, mozzarella",
+      "imageUrl": "eggplant_parmesan.jpg",
+      "price": 20
+    },
+    {
+      "id": 44,
+      "categoryId": 4,
+      "productName": "Teriyaki Chicken",
+      "ingredients": "Chicken thighs, teriyaki sauce, sesame seeds",
+      "imageUrl": "teriyaki_chicken.jpg",
+      "price": 24
+    },
+    {
+      "id": 45,
+      "categoryId": 4,
+      "productName": "Pork Tenderloin",
+      "ingredients": "Pork tenderloin, herbs, Dijon mustard",
+      "imageUrl": "pork_tenderloin.jpg",
+      "price": 27
+    },
+    {
+      "id": 46,
+      "categoryId": 4,
+      "productName": "Stuffed Bell Peppers",
+      "ingredients": "Bell peppers, ground beef, rice, tomato sauce",
+      "imageUrl": "stuffed_bell_peppers.jpg",
+      "price": 19
+    },
+    {
+      "id": 47,
+      "categoryId": 4,
+      "productName": "Sushi Rolls",
+      "ingredients": "Rice, seaweed, fish, vegetables",
+      "imageUrl": "sushi_rolls.jpg",
+      "price": 32
+    },
+    {
+      "id": 48,
+      "categoryId": 4,
+      "productName": "Chicken Piccata",
+      "ingredients": "Chicken breast, lemon, capers, white wine",
+      "imageUrl": "chicken_piccata.jpg",
+      "price": 23
+    },
+    {
+      "id": 49,
+      "categoryId": 5,
+      "productName": "Chocolate Cake",
+      "ingredients": "Flour, sugar, cocoa, eggs, butter",
+      "imageUrl": "chocolate_cake.jpg",
+      "price": 20
+    },
+    {
+      "id": 50,
+      "categoryId": 5,
+      "productName": "Apple Pie",
+      "ingredients": "Apples, sugar, cinnamon, pie crust",
+      "imageUrl": "apple_pie.jpg",
+      "price": 18
+    },
+    {
+      "id": 51,
+      "categoryId": 5,
+      "productName": "Cheesecake",
+      "ingredients": "Cream cheese, sugar, eggs, vanilla",
+      "imageUrl": "cheesecake.jpg",
+      "price": 22
+    },
+    {
+      "id": 52,
+      "categoryId": 5,
+      "productName": "Strawberry Shortcake",
+      "ingredients": "Strawberries, whipped cream, shortcake",
+      "imageUrl": "strawberry_shortcake.jpg",
+      "price": 16
+    },
+    {
+      "id": 53,
+      "categoryId": 5,
+      "productName": "Tiramisu",
+      "ingredients": "Ladyfingers, coffee, mascarpone, cocoa",
+      "imageUrl": "tiramisu.jpg",
+      "price": 24
+    },
+    {
+      "id": 54,
+      "categoryId": 5,
+      "productName": "Pecan Pie",
+      "ingredients": "Pecans, sugar, corn syrup, pie crust",
+      "imageUrl": "pecan_pie.jpg",
+      "price": 21
+    },
+    {
+      "id": 55,
+      "categoryId": 5,
+      "productName": "Molten Lava Cake",
+      "ingredients": "Chocolate, butter, sugar, eggs",
+      "imageUrl": "molten_lava_cake.jpg",
+      "price": 25
+    },
+    {
+      "id": 56,
+      "categoryId": 5,
+      "productName": "Ice Cream Sundae",
+      "ingredients": "Ice cream, chocolate sauce, nuts, whipped cream",
+      "imageUrl": "ice_cream_sundae.jpg",
+      "price": 14
+    },
+    {
+      "id": 57,
+      "categoryId": 5,
+      "productName": "Red Velvet Cupcakes",
+      "ingredients": "Flour, cocoa, buttermilk, cream cheese frosting",
+      "imageUrl": "red_velvet_cupcakes.jpg",
+      "price": 19
+    },
+    {
+      "id": 58,
+      "categoryId": 5,
+      "productName": "Fruit Tart",
+      "ingredients": "Pastry cream, assorted fruits, tart crust",
+      "imageUrl": "fruit_tart.jpg",
+      "price": 23
+    },
+    {
+      "id": 59,
+      "categoryId": 5,
+      "productName": "Creme Brulee",
+      "ingredients": "Egg yolks, sugar, vanilla, caramelized sugar",
+      "imageUrl": "creme_brulee.jpg",
+      "price": 20
+    },
+    {
+      "id": 60,
+      "categoryId": 5,
+      "productName": "Key Lime Pie",
+      "ingredients": "Key lime juice, condensed milk, graham cracker crust",
+      "imageUrl": "key_lime_pie.jpg",
+      "price": 17
+    },
+    {
+      "id": 61,
+      "categoryId": 6,
+      "productName": "Bruschetta",
+      "ingredients": "Tomatoes, garlic, basil, baguette",
+      "imageUrl": "bruschetta.jpg",
+      "price": 12
+    },
+    {
+      "id": 62,
+      "categoryId": 6,
+      "productName": "Stuffed Mushrooms",
+      "ingredients": "Mushrooms, cream cheese, herbs",
+      "imageUrl": "stuffed_mushrooms.jpg",
+      "price": 14
+    },
+    {
+      "id": 63,
+      "categoryId": 6,
+      "productName": "Spinach Artichoke Dip",
+      "ingredients": "Spinach, artichokes, cream cheese, tortilla chips",
+      "imageUrl": "spinach_artichoke_dip.jpg",
+      "price": 16
+    },
+    {
+      "id": 64,
+      "categoryId": 6,
+      "productName": "Shrimp Cocktail",
+      "ingredients": "Shrimp, cocktail sauce, lemon",
+      "imageUrl": "shrimp_cocktail.jpg",
+      "price": 18
+    },
+    {
+      "id": 65,
+      "categoryId": 6,
+      "productName": "Deviled Eggs",
+      "ingredients": "Eggs, mayonnaise, mustard, paprika",
+      "imageUrl": "deviled_eggs.jpg",
+      "price": 10
+    },
+    {
+      "id": 66,
+      "categoryId": 6,
+      "productName": "Crispy Calamari",
+      "ingredients": "Calamari rings, flour, marinara sauce",
+      "imageUrl": "crispy_calamari.jpg",
+      "price": 20
+    },
+    {
+      "id": 67,
+      "categoryId": 6,
+      "productName": "Cheese Platter",
+      "ingredients": "Assorted cheeses, crackers, grapes",
+      "imageUrl": "cheese_platter.jpg",
+      "price": 22
+    },
+    {
+      "id": 68,
+      "categoryId": 6,
+      "productName": "Chicken Wings",
+      "ingredients": "Chicken wings, hot sauce, celery, ranch dressing",
+      "imageUrl": "chicken_wings.jpg",
+      "price": 15
+    },
+    {
+      "id": 69,
+      "categoryId": 6,
+      "productName": "Guacamole",
+      "ingredients": "Avocado, tomatoes, onions, lime",
+      "imageUrl": "guacamole.jpg",
+      "price": 14
+    },
+    {
+      "id": 70,
+      "categoryId": 6,
+      "productName": "Cucumber Rolls",
+      "ingredients": "Cucumber, cream cheese, smoked salmon",
+      "imageUrl": "cucumber_rolls.jpg",
+      "price": 17
+    },
+    {
+      "id": 71,
+      "categoryId": 6,
+      "productName": "Caprese Skewers",
+      "ingredients": "Tomatoes, mozzarella, basil, balsamic glaze",
+      "imageUrl": "caprese_skewers.jpg",
+      "price": 13
+    },
+    {
+      "id": 72,
+      "categoryId": 6,
+      "productName": "Veggie Spring Rolls",
+      "ingredients": "Rice paper, vegetables, soy sauce",
+      "imageUrl": "veggie_spring_rolls.jpg",
+      "price": 16
+    },
+    {
+      "id": 73,
+      "categoryId": 7,
+      "productName": "Grilled Shrimp",
+      "ingredients": "Shrimp, garlic, lemon, olive oil",
+      "imageUrl": "grilled_shrimp.jpg",
+      "price": 22
+    },
+    {
+      "id": 74,
+      "categoryId": 7,
+      "productName": "Lobster Bisque",
+      "ingredients": "Lobster, cream, onions, herbs",
+      "imageUrl": "lobster_bisque.jpg",
+      "price": 30
+    },
+    {
+      "id": 75,
+      "categoryId": 7,
+      "productName": "Clam Linguine",
+      "ingredients": "Clams, linguine, garlic, white wine",
+      "imageUrl": "clam_linguine.jpg",
+      "price": 26
+    },
+    {
+      "id": 76,
+      "categoryId": 7,
+      "productName": "Salmon Sushi",
+      "ingredients": "Salmon, rice, seaweed, soy sauce",
+      "imageUrl": "salmon_sushi.jpg",
+      "price": 18
+    },
+    {
+      "id": 77,
+      "categoryId": 7,
+      "productName": "Fish Tacos",
+      "ingredients": "White fish, tortillas, coleslaw, lime",
+      "imageUrl": "fish_tacos.jpg",
+      "price": 20
+    },
+    {
+      "id": 78,
+      "categoryId": 7,
+      "productName": "Crab Cakes",
+      "ingredients": "Crab meat, breadcrumbs, mayonnaise, spices",
+      "imageUrl": "crab_cakes.jpg",
+      "price": 24
+    },
+    {
+      "id": 79,
+      "categoryId": 7,
+      "productName": "Shrimp Scampi Pasta",
+      "ingredients": "Shrimp, linguine, garlic, white wine",
+      "imageUrl": "shrimp_scampi_pasta.jpg",
+      "price": 28
+    },
+    {
+      "id": 80,
+      "categoryId": 7,
+      "productName": "Seafood Paella",
+      "ingredients": "Rice, shrimp, mussels, chorizo",
+      "imageUrl": "seafood_paella.jpg",
+      "price": 32
+    },
+    {
+      "id": 81,
+      "categoryId": 7,
+      "productName": "Tuna Poke Bowl",
+      "ingredients": "Ahi tuna, rice, soy sauce, avocado",
+      "imageUrl": "tuna_poke_bowl.jpg",
+      "price": 25
+    },
+    {
+      "id": 82,
+      "categoryId": 7,
+      "productName": "Oysters Rockefeller",
+      "ingredients": "Oysters, spinach, bacon, hollandaise sauce",
+      "imageUrl": "oysters_rockefeller.jpg",
+      "price": 35
+    },
+    {
+      "id": 83,
+      "categoryId": 7,
+      "productName": "Grilled Octopus",
+      "ingredients": "Octopus, olive oil, garlic, lemon",
+      "imageUrl": "grilled_octopus.jpg",
+      "price": 30
+    },
+    {
+      "id": 84,
+      "categoryId": 7,
+      "productName": "Cajun Shrimp Boil",
+      "ingredients": "Shrimp, corn, potatoes, Cajun spices",
+      "imageUrl": "cajun_shrimp_boil.jpg",
+      "price": 28
+    },
+    {
+      "id": 85,
+      "categoryId": 8,
+      "productName": "Vegetarian Pizza",
+      "ingredients": "Pizza dough, tomato sauce, cheese, vegetables",
+      "imageUrl": "vegetarian_pizza.jpg",
+      "price": 18
+    },
+    {
+      "id": 86,
+      "categoryId": 8,
+      "productName": "Eggplant Lasagna",
+      "ingredients": "Eggplant, marinara sauce, ricotta, mozzarella",
+      "imageUrl": "eggplant_lasagna.jpg",
+      "price": 20
+    },
+    {
+      "id": 87,
+      "categoryId": 8,
+      "productName": "Quinoa Stuffed Bell Peppers",
+      "ingredients": "Quinoa, bell peppers, black beans, corn",
+      "imageUrl": "quinoa_stuffed_peppers.jpg",
+      "price": 16
+    },
+    {
+      "id": 88,
+      "categoryId": 8,
+      "productName": "Vegetable Curry",
+      "ingredients": "Mixed vegetables, curry sauce, rice",
+      "imageUrl": "vegetable_curry.jpg",
+      "price": 22
+    },
+    {
+      "id": 89,
+      "categoryId": 8,
+      "productName": "Portobello Mushroom Burger",
+      "ingredients": "Portobello mushrooms, buns, cheese, lettuce",
+      "imageUrl": "portobello_burger.jpg",
+      "price": 17
+    },
+    {
+      "id": 90,
+      "categoryId": 8,
+      "productName": "Spinach and Feta Stuffed Tomatoes",
+      "ingredients": "Tomatoes, spinach, feta cheese, herbs",
+      "imageUrl": "spinach_feta_tomatoes.jpg",
+      "price": 15
+    },
+    {
+      "id": 91,
+      "categoryId": 8,
+      "productName": "Vegetable Stir-Fry Noodles",
+      "ingredients": "Vegetables, noodles, soy sauce, sesame oil",
+      "imageUrl": "vegetable_stir_fry_noodles.jpg",
+      "price": 18
+    },
+    {
+      "id": 92,
+      "categoryId": 8,
+      "productName": "Caprese Zucchini Boats",
+      "ingredients": "Zucchini, tomatoes, mozzarella, balsamic glaze",
+      "imageUrl": "caprese_zucchini_boats.jpg",
+      "price": 16
+    },
+    {
+      "id": 93,
+      "categoryId": 8,
+      "productName": "Sweet Potato and Black Bean Quesadillas",
+      "ingredients": "Sweet potatoes, black beans, tortillas, cheese",
+      "imageUrl": "sweet_potato_qeusadillas.jpg",
+      "price": 20
+    },
+    {
+      "id": 94,
+      "categoryId": 8,
+      "productName": "Mushroom Risotto",
+      "ingredients": "Arborio rice, mushrooms, onions, Parmesan",
+      "imageUrl": "mushroom_risotto.jpg",
+      "price": 24
+    },
+    {
+      "id": 95,
+      "categoryId": 8,
+      "productName": "Vegetarian Tacos",
+      "ingredients": "Black beans, tortillas, avocado, salsa",
+      "imageUrl": "vegetarian_tacos.jpg",
+      "price": 15
+    },
+    {
+      "id": 96,
+      "categoryId": 8,
+      "productName": "Zucchini Noodles with Pesto",
+      "ingredients": "Zucchini noodles, pesto, cherry tomatoes",
+      "imageUrl": "zucchini_noodles_pesto.jpg",
+      "price": 16
+    },
+    {
+      "id": 97,
+      "categoryId": 9,
+      "productName": "Spaghetti Bolognese",
+      "ingredients": "Ground beef, tomatoes, garlic, pasta",
+      "imageUrl": "spaghetti_bolognese.jpg",
+      "price": 18
+    },
+    {
+      "id": 98,
+      "categoryId": 9,
+      "productName": "Chicken Alfredo Pasta",
+      "ingredients": "Chicken, fettuccine, Alfredo sauce",
+      "imageUrl": "chicken_alfredo_pasta.jpg",
+      "price": 22
+    },
+    {
+      "id": 99,
+      "categoryId": 9,
+      "productName": "Pesto Shrimp Linguine",
+      "ingredients": "Shrimp, linguine, pesto sauce",
+      "imageUrl": "pesto_shrimp_linguine.jpg",
+      "price": 24
+    },
+    {
+      "id": 100,
+      "categoryId": 9,
+      "productName": "Vegetarian Lasagna",
+      "ingredients": "Zucchini, bell peppers, ricotta, marinara sauce",
+      "imageUrl": "vegetarian_lasagna.jpg",
+      "price": 20
+    },
+    {
+      "id": 101,
+      "categoryId": 9,
+      "productName": "Carbonara",
+      "ingredients": "Pancetta, eggs, Parmesan, spaghetti",
+      "imageUrl": "carbonara.jpg",
+      "price": 16
+    },
+    {
+      "id": 102,
+      "categoryId": 9,
+      "productName": "Seafood Linguine",
+      "ingredients": "Assorted seafood, linguine, white wine sauce",
+      "imageUrl": "seafood_linguine.jpg",
+      "price": 28
+    },
+    {
+      "id": 103,
+      "categoryId": 9,
+      "productName": "Mushroom Ravioli",
+      "ingredients": "Mushroom-filled ravioli, cream sauce",
+      "imageUrl": "mushroom_ravioli.jpg",
+      "price": 21
+    },
+    {
+      "id": 104,
+      "categoryId": 9,
+      "productName": "Chicken Pesto Penne",
+      "ingredients": "Chicken, penne pasta, pesto sauce",
+      "imageUrl": "chicken_pesto_penne.jpg",
+      "price": 23
+    },
+    {
+      "id": 105,
+      "categoryId": 9,
+      "productName": "Spicy Arrabbiata",
+      "ingredients": "Tomatoes, red pepper flakes, garlic, penne pasta",
+      "imageUrl": "spicy_arrabbiata.jpg",
+      "price": 17
+    },
+    {
+      "id": 106,
+      "categoryId": 9,
+      "productName": "Butternut Squash Ravioli",
+      "ingredients": "Butternut squash-filled ravioli, sage butter sauce",
+      "imageUrl": "butternut_squash_ravioli.jpg",
+      "price": 19
+    },
+    {
+      "id": 107,
+      "categoryId": 9,
+      "productName": "Lemon Garlic Shrimp Pasta",
+      "ingredients": "Shrimp, linguine, lemon, garlic",
+      "imageUrl": "lemon_garlic_shrimp_pasta.jpg",
+      "price": 26
+    },
+    {
+      "id": 108,
+      "categoryId": 9,
+      "productName": "Cajun Chicken Penne",
+      "ingredients": "Chicken, penne pasta, Cajun spices",
+      "imageUrl": "cajun_chicken_penne.jpg",
+      "price": 25
+    },
+    {
+      "id": 109,
+      "categoryId": 10,
+      "productName": "Cheeseburger",
+      "ingredients": "Beef patty, cheese, lettuce, tomato, bun",
+      "imageUrl": "cheeseburger.jpg",
+      "price": 12
+    },
+    {
+      "id": 110,
+      "categoryId": 10,
+      "productName": "Chicken Nuggets",
+      "ingredients": "Chicken breast, breadcrumbs, dipping sauce",
+      "imageUrl": "chicken_nuggets.jpg",
+      "price": 8
+    },
+    {
+      "id": 111,
+      "categoryId": 10,
+      "productName": "Margherita Pizza",
+      "ingredients": "Pizza dough, tomato sauce, mozzarella, basil",
+      "imageUrl": "margherita_pizza.jpg",
+      "price": 14
+    },
+    {
+      "id": 112,
+      "categoryId": 10,
+      "productName": "Hot Dog",
+      "ingredients": "Frankfurter, bun, ketchup, mustard",
+      "imageUrl": "hot_dog.jpg",
+      "price": 10
+    },
+    {
+      "id": 113,
+      "categoryId": 10,
+      "productName": "Fish and Chips",
+      "ingredients": "Fish fillet, fries, tartar sauce",
+      "imageUrl": "fish_and_chips.jpg",
+      "price": 16
+    },
+    {
+      "id": 114,
+      "categoryId": 10,
+      "productName": "BBQ Pulled Pork Sandwich",
+      "ingredients": "Pulled pork, BBQ sauce, coleslaw, bun",
+      "imageUrl": "bbq_pulled_pork_sandwich.jpg",
+      "price": 18
+    },
+    {
+      "id": 115,
+      "categoryId": 10,
+      "productName": "Taco Supreme",
+      "ingredients": "Ground beef, lettuce, cheese, tortilla",
+      "imageUrl": "taco_supreme.jpg",
+      "price": 12
+    },
+    {
+      "id": 116,
+      "categoryId": 10,
+      "productName": "Chicken Quesadilla",
+      "ingredients": "Chicken, cheese, tortilla, salsa",
+      "imageUrl": "chicken_quesadilla.jpg",
+      "price": 15
+    },
+    {
+      "id": 117,
+      "categoryId": 10,
+      "productName": "Pepperoni Pizza",
+      "ingredients": "Pizza dough, tomato sauce, pepperoni, cheese",
+      "imageUrl": "pepperoni_pizza.jpg",
+      "price": 14
+    },
+    {
+      "id": 118,
+      "categoryId": 10,
+      "productName": "Chicken Burger",
+      "ingredients": "Chicken patty, lettuce, tomato, bun",
+      "imageUrl": "chicken_burger.jpg",
+      "price": 13
+    },
+    {
+      "id": 119,
+      "categoryId": 10,
+      "productName": "Chili Cheese Fries",
+      "ingredients": "Fries, chili, cheese sauce",
+      "imageUrl": "chili_cheese_fries.jpg",
+      "price": 10
+    },
+    {
+      "id": 120,
+      "categoryId": 10,
+      "productName": "Veggie Wrap",
+      "ingredients": "Assorted vegetables, tortilla, hummus",
+      "imageUrl": "veggie_wrap.jpg",
+      "price": 12
+    }
+  ]
+}
