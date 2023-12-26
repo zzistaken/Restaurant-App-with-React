@@ -1,0 +1,58 @@
+.product-item-container {
+  perspective: 1000px;
+}
+
+.product-item,
+.product-details,
+.product-item-container:hover .productIngredients,
+.product-item-container:hover .addToCartButton {
+  transition: transform 0.5s;
+}
+
+.product-item-container:hover .product-item,
+.product-item-container:hover .product-details {
+  height: 100%;
+  width: 100%;
+}
+
+.product-item {
+  transform-style: preserve-3d;
+}
+
+.product-item-container:hover .product-item {
+  transform: rotateY(180deg);
+  background-color: white;
+  border: 1px solid #046c4e;
+  border-radius: 0.5rem;
+}
+
+.product-item-container:hover .product-details {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-item-container:hover .productImage,
+.product-item-container:hover .productName,
+.product-item-container:hover .productPrice {
+  display: none;
+}
+
+.product-item-container:hover .Ingredients,
+.product-item-container:hover .productIngredients,
+.product-item-container:hover .addToCartButton {
+  display: block;
+  transform: rotateY(180deg);
+}
+
+.product-item-container:hover .Ingredients,
+.product-item-container:hover .productIngredients {
+  text-align: center;
+}
+
+.product-item-container:hover .addToCartDiv {
+  display: flex;
+  justify-content: center;
+}

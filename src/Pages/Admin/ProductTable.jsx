@@ -88,7 +88,20 @@ export default class ProductTable extends Component {
 
   render() {
     return (
-      <div className="flex justify-center overflow-x-auto w-full p-2">
+      <div className="flex flex-col items-center overflow-x-auto w-full p-1">
+        <div className="flex flex-wrap justify-center p-1 lg:justify-between items-center">
+          {this.props.categories.map((category) => (
+            <Button
+              size="xs"
+              key={category.id}
+              color="light"
+              className="m-1 cursor-pointer uppercase"
+              onClick={() => this.props.changeCategory(category)}
+            >
+              {category.categoryName}
+            </Button>
+          ))}
+        </div>
         <Table className="max-w-5xl" striped>
           <Table.Head>
             <Table.HeadCell>Product Name</Table.HeadCell>

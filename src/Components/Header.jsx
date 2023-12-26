@@ -1,12 +1,18 @@
 import React, { Component } from "react";
 import Logo from "../Assets/logo.png";
 import { FaCartShopping } from "react-icons/fa6";
-import { IoMdSearch } from "react-icons/io";
 import Navigation from "./Navigation";
-import { Badge, Dropdown, DropdownDivider, DropdownItem } from "flowbite-react";
+import {
+  Badge,
+  Dropdown,
+  DropdownDivider,
+  DropdownItem,
+  TextInput,
+} from "flowbite-react";
 import { FaTrash } from "react-icons/fa6";
 import { MdOutlineCleaningServices } from "react-icons/md";
 import { FaEye } from "react-icons/fa";
+import { IoSearch } from "react-icons/io5";
 import { Link } from "react-router-dom";
 
 export default class Header extends Component {
@@ -91,16 +97,13 @@ export default class Header extends Component {
             <img className="h-16 md:h-20" src={Logo} alt="Logo" />
           </Link>
           <div className="flex m-1">
-            <input
-              className="w-28 h-10 text-gray-700 border border-gray-300 px-2 rounded-l-md sm:w-48  md:w-72 lg:w-96 text-sm focus:border-none focus:outline-none"
-              type="text"
-              name="searchInput"
+            <TextInput
+              color="success"
+              rightIcon={IoSearch}
               id="searchInput"
-              placeholder="What do you want to eat?"
+              type="text"
+              sizing="md"
             />
-            <button className="w-10 h-10 flex justify-center items-center rounded-r-md bg-slate-600 text-white">
-              <IoMdSearch className="text-2xl" />
-            </button>
           </div>
           <div>
             {this.props.cart.length > 0

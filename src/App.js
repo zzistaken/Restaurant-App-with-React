@@ -5,7 +5,7 @@ import Header from "./Components/Header";
 import ProductList from "./Pages/Site/ProductList";
 import Cart from "./Pages/Cart/Cart";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import NotFound from "./Pages/NotFound";
+import NotFound from "./Pages/Error/NotFound";
 import Dashboard from "./Pages/Admin/Dashboard";
 
 export default class App extends Component {
@@ -146,6 +146,7 @@ export default class App extends Component {
               element={
                 <Dashboard
                   categories={this.state.categories}
+                  changeCategory={this.changeCategory}
                   products={this.state.products}
                   getProducts={this.getProducts}
                   addProduct={this.addProduct}

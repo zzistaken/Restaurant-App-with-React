@@ -15,6 +15,7 @@ export default class Dashboard extends Component {
           products={this.props.products}
           getProducts={this.props.getProducts}
           categories={this.props.categories}
+          changeCategory={this.props.changeCategory}
           deleteProduct={this.props.deleteProduct}
           updateProduct={this.props.updateProduct}
         />

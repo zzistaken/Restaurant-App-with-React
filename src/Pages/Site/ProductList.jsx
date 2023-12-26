@@ -1,5 +1,6 @@
-import { Badge, Button } from "flowbite-react";
 import React, { Component } from "react";
+import { Badge, Button } from "flowbite-react";
+import "./ProductList.css";
 
 export default class ProductList extends Component {
   
@@ -9,32 +10,41 @@ export default class ProductList extends Component {
         {this.props.products.map((product) => (
           <div
             key={product.id}
-            className="w-52 md:w-60 max-h-[300px] bg-white rounded-md m-2 shadow relative"
+            className="product-item-container w-52 md:w-60 max-h-[300px] bg-white rounded-md m-2 shadow cursor-pointer"
           >
-            <img
-              className="h-48 w-full rounded-t-md object-cover"
-              src={product.imageUrl}
-              alt={product.productName}
-            />
-            <h1 className="m-1 text-lg font-semibold truncate">
-              {product.productName}
-            </h1>
-            <p className="m-1 text-sm text-slate-600 truncate">
-              {product.ingredients}
-            </p>
-            <hr className="mx-1" />
-            <div className="flex justify-between items-center p-2">
-              <Badge size="md" color="success">
-                {product.price}
-                <span>$</span>
-              </Badge>
-              <Button
-                onClick={() => this.props.addToCart(product)}
-                size="xs"
-                color="success"
-              >
-                Add to Cart
-              </Button>
+            <div className="product-item">
+              <img
+                className="h-48 w-full rounded-t-md object-cover productImage"
+                src={product.imageUrl}
+                alt={product.productName}
+              />
+              <div className="product-details">
+                <h1 className="m-1 text-lg font-semibold truncate productName">
+                  {product.productName}
+                </h1>
+                <h1 className="m-1 text-lg font-semibold Ingredients hidden">
+                  Ingredients
+                  <hr />
+                </h1>
+                <p className="m-1 text-sm text-slate-600 productIngredients hidden">
+                  {product.ingredients}
+                </p>
+                <hr className="mx-1 productName" />
+                <div className="flex justify-between items-center p-2 addToCartDiv">
+                  <Badge className="productPrice" size="md" color="success">
+                    {product.price}
+                    <span>$</span>
+                  </Badge>
+                  <Button
+                    className="addToCartButton hidden"
+                    onClick={() => this.props.addToCart(product)}
+                    size="xs"
+                    color="success"
+                  >
+                    Add to Cart
+                  </Button>
+                </div>
+              </div>
             </div>
           </div>
         ))}

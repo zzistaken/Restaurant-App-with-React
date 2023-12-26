@@ -6,7 +6,7 @@ import { FaTrash } from "react-icons/fa";
 export default class Cart extends Component {
   renderSummary = () => {
     return (
-      <div className="flex justify-end mx-2 flex-col-reverse md:flex-row md:justify-center min-h-[82vh]">
+      <div className="flex justify-end mx-2 flex-col-reverse md:flex-row md:justify-center min-h-[82vh] bg-slate-100">
         <div className="flex justify-center overflow-x-auto p-2">
           <Table striped>
             <Table.Head>
@@ -90,7 +90,7 @@ export default class Cart extends Component {
 
   renderEmptyCart = () => {
     return (
-      <div className="flex flex-col justify-center items-center min-h-[82vh]">
+      <div className="flex flex-col justify-center items-center min-h-[82vh] bg-slate-100">
         <Badge size="sm" color="failure">
           Empty Cart
         </Badge>
