@@ -1,18 +1,50 @@
 {
   "categories": [
-    { "id": 0, "categoryName": "All" },
-    { "id": 1, "categoryName": "Breakfast" },
-    { "id": 2, "categoryName": "Soup" },
-    { "id": 3, "categoryName": "Salad" },
-    { "id": 4, "categoryName": "Main Course" },
-    { "id": 5, "categoryName": "Dessert" },
-    { "id": 6, "categoryName": "Appetizer" },
-    { "id": 7, "categoryName": "Seafood" },
-    { "id": 8, "categoryName": "Vegetarian" },
-    { "id": 9, "categoryName": "Pasta" },
-    { "id": 10, "categoryName": "Fast Food" }
+    {
+      "id": 0,
+      "categoryName": "All"
+    },
+    {
+      "id": 1,
+      "categoryName": "Breakfast"
+    },
+    {
+      "id": 2,
+      "categoryName": "Soup"
+    },
+    {
+      "id": 3,
+      "categoryName": "Salad"
+    },
+    {
+      "id": 4,
+      "categoryName": "Main Course"
+    },
+    {
+      "id": 5,
+      "categoryName": "Dessert"
+    },
+    {
+      "id": 6,
+      "categoryName": "Appetizer"
+    },
+    {
+      "id": 7,
+      "categoryName": "Seafood"
+    },
+    {
+      "id": 8,
+      "categoryName": "Vegetarian"
+    },
+    {
+      "id": 9,
+      "categoryName": "Pasta"
+    },
+    {
+      "id": 10,
+      "categoryName": "Fast Food"
+    }
   ],
-
   "meals": [
     {
       "id": 1,
@@ -20,7 +52,7 @@
       "productName": "Omelette",
       "ingredients": "Eggs, cheese, tomatoes, bell peppers",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Omelet_With_Fixings.jpg/1280px-Omelet_With_Fixings.jpg",
-      "price": 15
+      "price": "15"
     },
     {
       "id": 2,
@@ -28,7 +60,7 @@
       "productName": "Menemen",
       "ingredients": "Eggs, tomatoes, bell peppers, sausage",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/MenemenIstanbul.jpg",
-      "price": 18
+      "price": "17"
     },
     {
       "id": 3,

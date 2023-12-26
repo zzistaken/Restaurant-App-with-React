@@ -7,6 +7,7 @@ import { Badge, Dropdown, DropdownDivider, DropdownItem } from "flowbite-react";
 import { FaTrash } from "react-icons/fa6";
 import { MdOutlineCleaningServices } from "react-icons/md";
 import { FaEye } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export default class Header extends Component {
   renderSummary = () => {
@@ -23,9 +24,11 @@ export default class Header extends Component {
           color="light"
           size="sm"
         >
-          <DropdownItem className="flex justify-end items-center font-semibold hover:text-green-600">
-            View Cart <FaEye className="ml-1 text-green-600" />
-          </DropdownItem>
+          <Link to="/cart">
+            <DropdownItem className="flex justify-end items-center font-semibold hover:text-green-600">
+              View Cart <FaEye className="ml-1 text-green-600" />
+            </DropdownItem>
+          </Link>
           <DropdownDivider />
           {this.props.cart.map((cartItem) => (
             <Dropdown.Item
@@ -84,7 +87,9 @@ export default class Header extends Component {
     return (
       <div className="bg-slate-100">
         <div className="flex justify-between items-center border-b border-gray-200 p-1">
-          <img className="h-16 md:h-20" src={Logo} alt="Logo" />
+          <Link to="/">
+            <img className="h-16 md:h-20" src={Logo} alt="Logo" />
+          </Link>
           <div className="flex m-1">
             <input
               className="w-28 h-10 text-gray-700 border border-gray-300 px-2 rounded-l-md sm:w-48  md:w-72 lg:w-96 text-sm focus:border-none focus:outline-none"
