@@ -1,7 +1,7 @@
 import { Badge, Button, Table } from "flowbite-react";
 import React, { Component } from "react";
+import { FaTrash } from "react-icons/fa6";
 import { Link } from "react-router-dom";
-import { FaTrash } from "react-icons/fa";
 
 export default class Cart extends Component {
   renderSummary = () => {
@@ -29,7 +29,7 @@ export default class Cart extends Component {
                   </Table.Cell>
                   <Table.Cell>
                     <img
-                      className="max-h-16 max-w-20 rounded-md"
+                      className="h-16 w-20 rounded-md object-cover"
                       src={cartItem.product.imageUrl}
                       alt={cartItem.product.productName}
                     />

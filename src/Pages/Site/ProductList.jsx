@@ -1,9 +1,11 @@
 import React, { Component } from "react";
 import { Badge, Button } from "flowbite-react";
 import "./ProductList.css";
+import MostLiked from "./MostLiked";
+import { FaHeart } from "react-icons/fa6";
+import { BiSolidCategory } from "react-icons/bi";
 
 export default class ProductList extends Component {
-  
   renderProducts = () => {
     return (
       <div className="flex flex-wrap border-gray-200 bg-slate-100 justify-center border-t">
@@ -62,8 +64,18 @@ export default class ProductList extends Component {
 
   render() {
     return (
-      <div className="min-h-[83vh] bg-slate-100 ">
-        <div className="flex flex-wrap justify-center p-1 lg:justify-between">
+      <div className="min-h-[83vh] bg-slate-100">
+        <div className="w-full flex justify-center border-b border-gray-200">
+          <h1 className="flex items-center text-xl font-semibold text-slate-800 my-3">
+            <FaHeart className="mx-1 text-pink-500" />
+            Most Liked
+          </h1>
+        </div>
+        <MostLiked
+          addToCart={this.props.addToCart}
+          mostLikeds={this.props.mostLikeds}
+        />
+        <div className="flex flex-wrap justify-center p-1">
           {this.props.categories.map((category) => (
             <Button
               size="xs"
@@ -77,7 +89,8 @@ export default class ProductList extends Component {
           ))}
         </div>
         <div className="h-14 border-t border-gray-200 bg-slate-100 flex justify-center items-center">
-          <h1 className="text-xl font-semibold text-slate-800">
+          <h1 className="flex items-center text-xl font-semibold text-slate-800">
+            <BiSolidCategory className="mx-1 text-sky-500" />{" "}
             {this.props.currentCategory}
           </h1>
         </div>

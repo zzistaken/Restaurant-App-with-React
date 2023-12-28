@@ -2,17 +2,10 @@ import React, { Component } from "react";
 import Logo from "../Assets/logo.png";
 import { FaCartShopping } from "react-icons/fa6";
 import Navigation from "./Navigation";
-import {
-  Badge,
-  Dropdown,
-  DropdownDivider,
-  DropdownItem,
-  TextInput,
-} from "flowbite-react";
+import { Badge, Dropdown, DropdownDivider, DropdownItem } from "flowbite-react";
 import { FaTrash } from "react-icons/fa6";
 import { MdOutlineCleaningServices } from "react-icons/md";
 import { FaEye } from "react-icons/fa";
-import { IoSearch } from "react-icons/io5";
 import { Link } from "react-router-dom";
 
 export default class Header extends Component {
@@ -96,15 +89,6 @@ export default class Header extends Component {
           <Link to="/">
             <img className="h-16 md:h-20" src={Logo} alt="Logo" />
           </Link>
-          <div className="flex m-1">
-            <TextInput
-              color="success"
-              rightIcon={IoSearch}
-              id="searchInput"
-              type="text"
-              sizing="md"
-            />
-          </div>
           <div>
             {this.props.cart.length > 0
               ? this.renderSummary()

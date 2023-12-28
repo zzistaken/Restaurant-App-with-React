@@ -10,6 +10,7 @@ import Dashboard from "./Pages/Admin/Dashboard";
 
 export default class App extends Component {
   state = {
+    mostLikeds: [],
     categories: [],
     products: [],
     cart: [],
@@ -20,6 +21,7 @@ export default class App extends Component {
   componentDidMount() {
     this.getCategories();
     this.getProducts();
+    this.getMostLiked();
   }
 
   getCategories = async () => {
@@ -36,6 +38,13 @@ export default class App extends Component {
     const response = await fetch(url);
     const responseData = await response.json();
     this.setState({ products: responseData });
+  };
+
+  getMostLiked = async () => {
+    let url = "http://localhost:3005/meals?mostLiked=true";
+    const response = await fetch(url);
+    const responseData = await response.json();
+    this.setState({ mostLikeds: responseData });
   };
 
   addProduct = async (data) => {
@@ -126,6 +135,7 @@ export default class App extends Component {
                   currentCategory={this.state.currentCategory}
                   changeCategory={this.changeCategory}
                   products={this.state.products}
+                  mostLikeds={this.state.mostLikeds}
                   addToCart={this.addToCart}
                 />
               }

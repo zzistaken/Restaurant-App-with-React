@@ -75,7 +75,7 @@
       "categoryId": 1,
       "productName": "French Toast",
       "ingredients": "Bread, eggs, milk, cinnamon",
-      "imageUrl": "french_toast.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/FrenchToast.JPG/1280px-FrenchToast.JPG",
       "price": 10
     },
     {
@@ -83,15 +83,16 @@
       "categoryId": 1,
       "productName": "Avocado Toast",
       "ingredients": "Bread, avocado, poached egg",
-      "imageUrl": "avocado_toast.jpg",
-      "price": 14
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Avocado_toast_at_Voyager_Espresso_%2833134505776%29.jpg/1280px-Avocado_toast_at_Voyager_Espresso_%2833134505776%29.jpg",
+      "price": 14,
+      "mostLiked": true
     },
     {
       "id": 6,
       "categoryId": 1,
       "productName": "Bagel with Cream Cheese",
       "ingredients": "Bagel, cream cheese, salmon",
-      "imageUrl": "bagel.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/%2Athis%2A_is_a_bagel.jpg/1280px-%2Athis%2A_is_a_bagel.jpg",
       "price": 16
     },
     {
@@ -99,7 +100,7 @@
       "categoryId": 1,
       "productName": "Fruit Salad",
       "ingredients": "Assorted fruits, honey, mint",
-      "imageUrl": "fruit_salad.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Fruktsallad_%28Fruit_salad%29.jpg/1280px-Fruktsallad_%28Fruit_salad%29.jpg",
       "price": 20
     },
     {
@@ -107,7 +108,7 @@
       "categoryId": 1,
       "productName": "Smoothie Bowl",
       "ingredients": "Mixed berries, yogurt, granola",
-      "imageUrl": "smoothie_bowl.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Berries_Galore_Acai_Bowl_%2830276166867%29.jpg/1280px-Berries_Galore_Acai_Bowl_%2830276166867%29.jpg",
       "price": 22
     },
     {
@@ -115,7 +116,7 @@
       "categoryId": 1,
       "productName": "Egg Benedict",
       "ingredients": "English muffin, poached egg, hollandaise sauce",
-      "imageUrl": "egg_benedict.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Traditional_Eggs_Benedict.jpg/1280px-Traditional_Eggs_Benedict.jpg",
       "price": 18
     },
     {
@@ -123,7 +124,7 @@
       "categoryId": 1,
       "productName": "Waffles",
       "ingredients": "Waffle batter, syrup, whipped cream",
-      "imageUrl": "waffles.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Waffles_with_Strawberries.jpg/1280px-Waffles_with_Strawberries.jpg",
       "price": 16
     },
     {
@@ -131,7 +132,7 @@
       "categoryId": 1,
       "productName": "Granola Parfait",
       "ingredients": "Granola, yogurt, mixed berries",
-      "imageUrl": "granola_parfait.jpg",
+      "imageUrl": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2015/3/2/2/FNM_040115-Granola-Parfaits-Recipe_s4x3.jpg.rend.hgtvcom.616.462.suffix/1425500500897.jpeg",
       "price": 14
     },
     {
@@ -139,7 +140,7 @@
       "categoryId": 1,
       "productName": "Egg Wrap",
       "ingredients": "Tortilla, eggs, cheese, veggies",
-      "imageUrl": "egg_wrap.jpg",
+      "imageUrl": "https://feelgoodfoodie.net/wp-content/uploads/2018/04/Low-Carb-Egg-Wrap-09.jpg",
       "price": 15
     },
     {
@@ -147,7 +148,7 @@
       "categoryId": 2,
       "productName": "Lentil Soup",
       "ingredients": "Lentils, onions, carrots, salt",
-      "imageUrl": "lentil_soup.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Mercimek_%C3%A7orbas%C4%B1_in_Ankara%2C_Turkey.jpg/220px-Mercimek_%C3%A7orbas%C4%B1_in_Ankara%2C_Turkey.jpg",
       "price": 10
     },
     {
@@ -155,7 +156,7 @@
       "categoryId": 2,
       "productName": "Tomato Soup",
       "ingredients": "Tomatoes, onions, garlic, herbs",
-      "imageUrl": "tomato_soup.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Tomato_soup%2C_plant-based_%2844040252791%29.jpg/1280px-Tomato_soup%2C_plant-based_%2844040252791%29.jpg",
       "price": 12
     },
     {
@@ -163,7 +164,7 @@
       "categoryId": 2,
       "productName": "Chicken Noodle Soup",
       "ingredients": "Chicken, noodles, vegetables, broth",
-      "imageUrl": "chicken_noodle_soup.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Bowl_of_chicken_soup.jpg/220px-Bowl_of_chicken_soup.jpg",
       "price": 14
     },
     {
@@ -171,7 +172,7 @@
       "categoryId": 2,
       "productName": "Mushroom Soup",
       "ingredients": "Mushrooms, onions, cream, thyme",
-      "imageUrl": "mushroom_soup.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Cream_Mushroom_soup_2.jpg/260px-Cream_Mushroom_soup_2.jpg",
       "price": 16
     },
     {
@@ -179,7 +180,7 @@
       "categoryId": 2,
       "productName": "Minestrone",
       "ingredients": "Tomatoes, beans, pasta, vegetables",
-      "imageUrl": "minestrone.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Homemade_minestrone.jpg/220px-Homemade_minestrone.jpg",
       "price": 15
     },
     {
@@ -187,15 +188,16 @@
       "categoryId": 2,
       "productName": "Vegetable Soup",
       "ingredients": "Assorted vegetables, broth, herbs",
-      "imageUrl": "vegetable_soup.jpg",
-      "price": 12
+      "imageUrl": "https://www.cookingclassy.com/wp-content/uploads/2014/10/vegetable-soup-7.jpg",
+      "price": 12,
+      "mostLiked": true
     },
     {
       "id": 19,
       "categoryId": 2,
       "productName": "Clam Chowder",
       "ingredients": "Clams, potatoes, onions, bacon",
-      "imageUrl": "clam_chowder.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Clam_Chowder.JPG/1280px-Clam_Chowder.JPG",
       "price": 18
     },
     {
@@ -203,7 +205,7 @@
       "categoryId": 2,
       "productName": "Pumpkin Soup",
       "ingredients": "Pumpkin, onions, garlic, spices",
-      "imageUrl": "pumpkin_soup.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/2018-11-01-K%C3%BCrbissuppe-1128.jpg/1280px-2018-11-01-K%C3%BCrbissuppe-1128.jpg",
       "price": 13
     },
     {
@@ -211,7 +213,7 @@
       "categoryId": 2,
       "productName": "Hot and Sour Soup",
       "ingredients": "Chicken, tofu, mushrooms, bamboo shoots",
-      "imageUrl": "hot_sour_soup.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Ping_SJ_hot_%26_sour_soup.JPG/1280px-Ping_SJ_hot_%26_sour_soup.JPG",
       "price": 16
     },
     {
@@ -219,7 +221,7 @@
       "categoryId": 2,
       "productName": "Borscht",
       "ingredients": "Beets, cabbage, potatoes, dill",
-      "imageUrl": "borscht.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Borscht_served.jpg/1920px-Borscht_served.jpg",
       "price": 14
     },
     {
@@ -227,7 +229,7 @@
       "categoryId": 2,
       "productName": "Gazpacho",
       "ingredients": "Tomatoes, cucumbers, peppers, onions",
-      "imageUrl": "gazpacho.jpg",
+      "imageUrl": "https://www.rafinera.com/GetResizeImage?path=f7b81f70-8a2c-4fff-a266-8e6445d86617.jpg&width=340&height=340",
       "price": 15
     },
     {
@@ -235,7 +237,7 @@
       "categoryId": 2,
       "productName": "Cream of Broccoli Soup",
       "ingredients": "Broccoli, cream, onions, garlic",
-      "imageUrl": "broccoli_soup.jpg",
+      "imageUrl": "https://www.allrecipes.com/thmb/p6ePT5lcYr5xK5WLZ3ea33Qrt_M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/13313-best-cream-of-broccoli-soup-AllrecipesMagazine-4x3-495e6329745545a28c2a9b4e6ee3fab6.jpg",
       "price": 17
     },
     {
@@ -243,7 +245,7 @@
       "categoryId": 3,
       "productName": "Caesar Salad",
       "ingredients": "Romaine lettuce, croutons, parmesan, Caesar dressing",
-      "imageUrl": "caesar_salad.jpg",
+      "imageUrl": "https://www.seriouseats.com/thmb/Fi_FEyVa3_-_uzfXh6OdLrzal2M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/the-best-caesar-salad-recipe-06-40e70f549ba2489db09355abd62f79a9.jpg",
       "price": 18
     },
     {
@@ -251,7 +253,7 @@
       "categoryId": 3,
       "productName": "Greek Salad",
       "ingredients": "Cucumbers, tomatoes, olives, feta cheese",
-      "imageUrl": "greek_salad.jpg",
+      "imageUrl": "https://www.foodnetwork.com/content/dam/images/food/fullset/2010/4/23/0/BX0204_greek-salad_s4x3.jpg",
       "price": 15
     },
     {
@@ -259,7 +261,7 @@
       "categoryId": 3,
       "productName": "Cobb Salad",
       "ingredients": "Chicken, bacon, avocado, blue cheese",
-      "imageUrl": "cobb_salad.jpg",
+      "imageUrl": "https://media-cldnry.s-nbcnews.com/image/upload/newscms/2021_35/1767077/chicken-cutlet-cobb-salad-kb-square-210830.jpg",
       "price": 20
     },
     {
@@ -267,7 +269,7 @@
       "categoryId": 3,
       "productName": "Caprese Salad",
       "ingredients": "Tomatoes, mozzarella, basil, balsamic glaze",
-      "imageUrl": "caprese_salad.jpg",
+      "imageUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2022/05/Caprese-salad-8f218a3.png?resize=768,574",
       "price": 16
     },
     {
@@ -275,15 +277,16 @@
       "categoryId": 3,
       "productName": "Chicken Caesar Salad",
       "ingredients": "Grilled chicken, romaine lettuce, croutons, parmesan",
-      "imageUrl": "chicken_caesar_salad.jpg",
-      "price": 22
+      "imageUrl": "https://heartbeetkitchen.com/foodblog/wp-content/uploads/2022/06/ultimate-grilled-chicken-caesar-salad.jpg",
+      "price": 22,
+      "mostLiked": true
     },
     {
       "id": 30,
       "categoryId": 3,
       "productName": "Spinach Salad",
       "ingredients": "Spinach, strawberries, almonds, vinaigrette",
-      "imageUrl": "spinach_salad.jpg",
+      "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/spinachsaladhorizontal-jpg-1592245758.jpg?crop=0.636xw:0.952xh;0.0689xw,0.0481xh&resize=1200:*",
       "price": 14
     },
     {
@@ -291,7 +294,7 @@
       "categoryId": 3,
       "productName": "Nicoise Salad",
       "ingredients": "Tuna, olives, potatoes, green beans",
-      "imageUrl": "nicoise_salad.jpg",
+      "imageUrl": "https://www.eatingwell.com/thmb/HN5eA2KBZKebCrosCm4v3k-DBEU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Tuna-Nicoise-Salad-2683-1-a33ad1a2a6054bde8d49722f46b3031f.jpg",
       "price": 21
     },
     {
@@ -299,7 +302,7 @@
       "categoryId": 3,
       "productName": "Waldorf Salad",
       "ingredients": "Apples, grapes, walnuts, celery",
-      "imageUrl": "waldorf_salad.jpg",
+      "imageUrl": "https://www.simplyrecipes.com/thmb/1diOxNqUS9hd9J6vF_SvCtKNpus=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2007__10__waldorf-salad-horiz-a-1500-f54f0588f23d4f51b8d92469e6d81cf1.jpg",
       "price": 17
     },
     {
@@ -307,7 +310,7 @@
       "categoryId": 3,
       "productName": "Quinoa Salad",
       "ingredients": "Quinoa, cucumbers, tomatoes, feta cheese",
-      "imageUrl": "quinoa_salad.jpg",
+      "imageUrl": "https://cdn.loveandlemons.com/wp-content/uploads/2020/08/quinoa-salad.jpg",
       "price": 19
     },
     {
@@ -315,7 +318,7 @@
       "categoryId": 3,
       "productName": "Thai Beef Salad",
       "ingredients": "Beef, lettuce, carrots, peanuts",
-      "imageUrl": "thai_beef_salad.jpg",
+      "imageUrl": "https://www.beyondkimchee.com/wp-content/uploads/2021/03/Thai-Beef-Salad-Thumbnail.jpg",
       "price": 23
     },
     {
@@ -323,7 +326,7 @@
       "categoryId": 3,
       "productName": "Mango Avocado Salad",
       "ingredients": "Mango, avocado, arugula, lime dressing",
-      "imageUrl": "mango_avocado_salad.jpg",
+      "imageUrl": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2008/10/5/0/RE0201_Mango-and-Avocado-Salad.jpg.rend.hgtvcom.616.493.suffix/1594920613281.jpeg",
       "price": 16
     },
     {
@@ -331,7 +334,7 @@
       "categoryId": 3,
       "productName": "Classic Garden Salad",
       "ingredients": "Mixed greens, tomatoes, carrots, ranch dressing",
-      "imageUrl": "garden_salad.jpg",
+      "imageUrl": "https://www.recipetineats.com/wp-content/uploads/2021/08/Garden-Salad_47.jpg",
       "price": 14
     },
     {
@@ -339,7 +342,7 @@
       "categoryId": 4,
       "productName": "Grilled Salmon",
       "ingredients": "Salmon fillet, lemon, herbs, olive oil",
-      "imageUrl": "grilled_salmon.jpg",
+      "imageUrl": "https://www.acouplecooks.com/wp-content/uploads/2020/05/Grilled-Salmon-015-1.jpg",
       "price": 25
     },
     {
@@ -347,7 +350,7 @@
       "categoryId": 4,
       "productName": "Chicken Alfredo",
       "ingredients": "Chicken breast, fettuccine, Alfredo sauce",
-      "imageUrl": "chicken_alfredo.jpg",
+      "imageUrl": "https://www.modernhoney.com/wp-content/uploads/2019/04/Chicken-Fettucine-Alfredo-6-1200x1526.jpg",
       "price": 22
     },
     {
@@ -355,7 +358,7 @@
       "categoryId": 4,
       "productName": "Beef Stroganoff",
       "ingredients": "Beef sirloin, mushrooms, onions, sour cream",
-      "imageUrl": "beef_stroganoff.jpg",
+      "imageUrl": "https://www.recipetineats.com/wp-content/uploads/2018/01/Beef-Stroganoff_2-1-1.jpg",
       "price": 28
     },
     {
@@ -363,7 +366,7 @@
       "categoryId": 4,
       "productName": "Vegetable Stir-Fry",
       "ingredients": "Assorted vegetables, tofu, soy sauce",
-      "imageUrl": "vegetable_stir_fry.jpg",
+      "imageUrl": "https://www.onceuponachef.com/images/2017/02/Asian-Vegetable-Stir-Fry-3.jpg",
       "price": 18
     },
     {
@@ -371,23 +374,25 @@
       "categoryId": 4,
       "productName": "Shrimp Scampi",
       "ingredients": "Shrimp, garlic, white wine, pasta",
-      "imageUrl": "shrimp_scampi.jpg",
-      "price": 26
+      "imageUrl": "https://static01.nyt.com/images/2022/06/02/dining/ShrimpScampi_thumb/ShrimpScampi_thumb-threeByTwoMediumAt2X.jpg",
+      "price": 26,
+      "mostLiked": true
     },
     {
       "id": 42,
       "categoryId": 4,
       "productName": "Lamb Chops",
       "ingredients": "Lamb chops, rosemary, garlic, olive oil",
-      "imageUrl": "lamb_chops.jpg",
-      "price": 30
+      "imageUrl": "https://www.simplyrecipes.com/thmb/oAlJf5c1EQExU3iYIGTPRlmtF-4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2013__02__Rosemary-Lamb-Chops-LEAD-2-4b70775441df47848c0b4352446bac77.jpg",
+      "price": 30,
+      "mostLiked": true
     },
     {
       "id": 43,
       "categoryId": 4,
       "productName": "Eggplant Parmesan",
       "ingredients": "Eggplant, marinara sauce, mozzarella",
-      "imageUrl": "eggplant_parmesan.jpg",
+      "imageUrl": "https://www.allrecipes.com/thmb/L9wpL6T8bgfo7C09-Euoa-OSN0A=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/25321-eggplant-parmesan-ii-DDMFS-4x3-6d53ce79765b4c3d9f554d2a47e14d00.jpg",
       "price": 20
     },
     {
@@ -395,15 +400,16 @@
       "categoryId": 4,
       "productName": "Teriyaki Chicken",
       "ingredients": "Chicken thighs, teriyaki sauce, sesame seeds",
-      "imageUrl": "teriyaki_chicken.jpg",
-      "price": 24
+      "imageUrl": "https://twoplaidaprons.com/wp-content/uploads/2023/02/picking-up-a-piece-of-teriyaki-chicken-thumbnail-shot.jpg",
+      "price": 24,
+      "mostLiked": true
     },
     {
       "id": 45,
       "categoryId": 4,
       "productName": "Pork Tenderloin",
       "ingredients": "Pork tenderloin, herbs, Dijon mustard",
-      "imageUrl": "pork_tenderloin.jpg",
+      "imageUrl": "https://www.foodandwine.com/thmb/jCtQse2H043Vq-LOGm1wuMacImQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/pork-tenderloin-with-roasted-strawberry-merlot-sauce-FT-RECIPE0420-1-214191e3108e477090946aa1e0b2117b.jpg",
       "price": 27
     },
     {
@@ -411,7 +417,7 @@
       "categoryId": 4,
       "productName": "Stuffed Bell Peppers",
       "ingredients": "Bell peppers, ground beef, rice, tomato sauce",
-      "imageUrl": "stuffed_bell_peppers.jpg",
+      "imageUrl": "https://www.apinchofhealthy.com/wp-content/uploads/2021/09/Baked-stuffed-bell-peppers-in-pan-2.jpg",
       "price": 19
     },
     {
@@ -419,15 +425,16 @@
       "categoryId": 4,
       "productName": "Sushi Rolls",
       "ingredients": "Rice, seaweed, fish, vegetables",
-      "imageUrl": "sushi_rolls.jpg",
-      "price": 32
+      "imageUrl": "https://www.themidwestkitchenblog.com/wp-content/uploads/2022/08/ultimate-sushi-recipe-scaled.jpg",
+      "price": 32,
+      "mostLiked": true
     },
     {
       "id": 48,
       "categoryId": 4,
       "productName": "Chicken Piccata",
       "ingredients": "Chicken breast, lemon, capers, white wine",
-      "imageUrl": "chicken_piccata.jpg",
+      "imageUrl": "https://www.skinnytaste.com/wp-content/uploads/2010/05/Chicken-Piccata-8.jpg",
       "price": 23
     },
     {
@@ -435,15 +442,16 @@
       "categoryId": 5,
       "productName": "Chocolate Cake",
       "ingredients": "Flour, sugar, cocoa, eggs, butter",
-      "imageUrl": "chocolate_cake.jpg",
-      "price": 20
+      "imageUrl": "https://cdn.pickuplimes.com/cache/e8/d2/e8d2767ce7ba58f8bf0ffb62b17415c8.jpg",
+      "price": 20,
+      "mostLiked": true
     },
     {
       "id": 50,
       "categoryId": 5,
       "productName": "Apple Pie",
       "ingredients": "Apples, sugar, cinnamon, pie crust",
-      "imageUrl": "apple_pie.jpg",
+      "imageUrl": "https://cdn.yemek.com/mnresize/1250/833/uploads/2020/10/elmali-turta-tarifi-yemekcom.jpg",
       "price": 18
     },
     {
@@ -451,7 +459,7 @@
       "categoryId": 5,
       "productName": "Cheesecake",
       "ingredients": "Cream cheese, sugar, eggs, vanilla",
-      "imageUrl": "cheesecake.jpg",
+      "imageUrl": "https://cdn.yemek.com/mncrop/940/625/uploads/2023/10/frambuazli-cheesecake-yemekcom.jpg",
       "price": 22
     },
     {
@@ -459,7 +467,7 @@
       "categoryId": 5,
       "productName": "Strawberry Shortcake",
       "ingredients": "Strawberries, whipped cream, shortcake",
-      "imageUrl": "strawberry_shortcake.jpg",
+      "imageUrl": "https://lilluna.com/wp-content/uploads/2020/01/easy-strawberry-shortcake-4-scaled.jpg",
       "price": 16
     },
     {
@@ -467,7 +475,7 @@
       "categoryId": 5,
       "productName": "Tiramisu",
       "ingredients": "Ladyfingers, coffee, mascarpone, cocoa",
-      "imageUrl": "tiramisu.jpg",
+      "imageUrl": "https://d17wu0fn6x6rgz.cloudfront.net/img/w/tarif/mgt/tiramisu_40_11zon.webp",
       "price": 24
     },
     {
@@ -475,7 +483,7 @@
       "categoryId": 5,
       "productName": "Pecan Pie",
       "ingredients": "Pecans, sugar, corn syrup, pie crust",
-      "imageUrl": "pecan_pie.jpg",
+      "imageUrl": "https://assets.epicurious.com/photos/59bc16e71782591a4bc6659a/4:3/w_4592,h_3444,c_limit/OLD-FASHIONED-PECAN-PIE-07092017.jpg",
       "price": 21
     },
     {
@@ -483,7 +491,7 @@
       "categoryId": 5,
       "productName": "Molten Lava Cake",
       "ingredients": "Chocolate, butter, sugar, eggs",
-      "imageUrl": "molten_lava_cake.jpg",
+      "imageUrl": "https://www.foodandwine.com/thmb/XdFd-DvTtouryLCjeCqwhfmmK-A=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/molten-chocolate-cake-FT-RECIPE0220-0a33d7d0ab0c45588f7bfe742d33a9bc.jpg",
       "price": 25
     },
     {
@@ -491,7 +499,7 @@
       "categoryId": 5,
       "productName": "Ice Cream Sundae",
       "ingredients": "Ice cream, chocolate sauce, nuts, whipped cream",
-      "imageUrl": "ice_cream_sundae.jpg",
+      "imageUrl": "https://www.keep-calm-and-eat-ice-cream.com/wp-content/uploads/2022/08/Ice-cream-sundae-hero-11.jpg",
       "price": 14
     },
     {
@@ -499,15 +507,16 @@
       "categoryId": 5,
       "productName": "Red Velvet Cupcakes",
       "ingredients": "Flour, cocoa, buttermilk, cream cheese frosting",
-      "imageUrl": "red_velvet_cupcakes.jpg",
-      "price": 19
+      "imageUrl": "https://www.livewellbakeoften.com/wp-content/uploads/2021/06/Red-Velvet-Cupcakes-3-New-copy.jpg",
+      "price": 19,
+      "mostLiked": true
     },
     {
       "id": 58,
       "categoryId": 5,
       "productName": "Fruit Tart",
       "ingredients": "Pastry cream, assorted fruits, tart crust",
-      "imageUrl": "fruit_tart.jpg",
+      "imageUrl": "https://www.abakingjourney.com/wp-content/uploads/2022/04/Mini-Fruit-Tarts-Feature.jpg",
       "price": 23
     },
     {
@@ -515,7 +524,7 @@
       "categoryId": 5,
       "productName": "Creme Brulee",
       "ingredients": "Egg yolks, sugar, vanilla, caramelized sugar",
-      "imageUrl": "creme_brulee.jpg",
+      "imageUrl": "https://www.onceuponachef.com/images/2023/02/Creme-brulee-1-1200x814.jpg",
       "price": 20
     },
     {
@@ -523,7 +532,7 @@
       "categoryId": 5,
       "productName": "Key Lime Pie",
       "ingredients": "Key lime juice, condensed milk, graham cracker crust",
-      "imageUrl": "key_lime_pie.jpg",
+      "imageUrl": "https://www.livewellbakeoften.com/wp-content/uploads/2021/05/Key-Lime-Pie-NEW-7s.jpg",
       "price": 17
     },
     {
@@ -531,7 +540,7 @@
       "categoryId": 6,
       "productName": "Bruschetta",
       "ingredients": "Tomatoes, garlic, basil, baguette",
-      "imageUrl": "bruschetta.jpg",
+      "imageUrl": "https://cdn.yemek.com/mnresize/940/940/uploads/2018/10/bruschetta-tarifi.jpg",
       "price": 12
     },
     {
@@ -539,7 +548,7 @@
       "categoryId": 6,
       "productName": "Stuffed Mushrooms",
       "ingredients": "Mushrooms, cream cheese, herbs",
-      "imageUrl": "stuffed_mushrooms.jpg",
+      "imageUrl": "https://cdn.loveandlemons.com/wp-content/uploads/2019/12/stuffed-mushrooms-2.jpg",
       "price": 14
     },
     {
@@ -547,7 +556,7 @@
       "categoryId": 6,
       "productName": "Spinach Artichoke Dip",
       "ingredients": "Spinach, artichokes, cream cheese, tortilla chips",
-      "imageUrl": "spinach_artichoke_dip.jpg",
+      "imageUrl": "https://s23209.pcdn.co/wp-content/uploads/2022/08/220602_DD_Spinach-Artichoke-Dip_140-1.jpg",
       "price": 16
     },
     {
@@ -555,7 +564,7 @@
       "categoryId": 6,
       "productName": "Shrimp Cocktail",
       "ingredients": "Shrimp, cocktail sauce, lemon",
-      "imageUrl": "shrimp_cocktail.jpg",
+      "imageUrl": "https://theperfectportion.com/wp-content/uploads/2016/02/PerfectPortion-ShrimpCocktail.jpg",
       "price": 18
     },
     {
@@ -563,7 +572,7 @@
       "categoryId": 6,
       "productName": "Deviled Eggs",
       "ingredients": "Eggs, mayonnaise, mustard, paprika",
-      "imageUrl": "deviled_eggs.jpg",
+      "imageUrl": "https://static01.nyt.com/images/2021/10/15/dining/aw-classic-deviled-eggs/aw-classic-deviled-eggs-superJumbo.jpg",
       "price": 10
     },
     {
@@ -571,7 +580,7 @@
       "categoryId": 6,
       "productName": "Crispy Calamari",
       "ingredients": "Calamari rings, flour, marinara sauce",
-      "imageUrl": "crispy_calamari.jpg",
+      "imageUrl": "https://c.ndtvimg.com/9qq583bo_calamari-rings_625x300_04_September_18.jpg",
       "price": 20
     },
     {
@@ -579,7 +588,7 @@
       "categoryId": 6,
       "productName": "Cheese Platter",
       "ingredients": "Assorted cheeses, crackers, grapes",
-      "imageUrl": "cheese_platter.jpg",
+      "imageUrl": "https://www.lifeasastrawberry.com/wp-content/uploads/2018/11/how-to-build-a-cheese-plate.png",
       "price": 22
     },
     {
@@ -587,7 +596,7 @@
       "categoryId": 6,
       "productName": "Chicken Wings",
       "ingredients": "Chicken wings, hot sauce, celery, ranch dressing",
-      "imageUrl": "chicken_wings.jpg",
+      "imageUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2020/12/Air-Fryer-Chicken-Wings-d2c6fa4.jpg?quality=90&resize=556,505",
       "price": 15
     },
     {
@@ -595,15 +604,16 @@
       "categoryId": 6,
       "productName": "Guacamole",
       "ingredients": "Avocado, tomatoes, onions, lime",
-      "imageUrl": "guacamole.jpg",
-      "price": 14
+      "imageUrl": "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/652dc99355a08e70cfbd080ec11ac500/Derivates/d13d44ae6d7d2dc07e939536d43d51bd3a8a7849.jpg",
+      "price": 14,
+      "mostLiked": true
     },
     {
       "id": 70,
       "categoryId": 6,
       "productName": "Cucumber Rolls",
       "ingredients": "Cucumber, cream cheese, smoked salmon",
-      "imageUrl": "cucumber_rolls.jpg",
+      "imageUrl": "https://www.superhealthykids.com/wp-content/uploads/2017/05/cucumber-rollups-14.jpg",
       "price": 17
     },
     {
@@ -611,7 +621,7 @@
       "categoryId": 6,
       "productName": "Caprese Skewers",
       "ingredients": "Tomatoes, mozzarella, basil, balsamic glaze",
-      "imageUrl": "caprese_skewers.jpg",
+      "imageUrl": "https://cdn.loveandlemons.com/wp-content/uploads/2021/08/caprese-skewers.jpg",
       "price": 13
     },
     {
@@ -619,7 +629,7 @@
       "categoryId": 6,
       "productName": "Veggie Spring Rolls",
       "ingredients": "Rice paper, vegetables, soy sauce",
-      "imageUrl": "veggie_spring_rolls.jpg",
+      "imageUrl": "https://debraklein.com/wp-content/uploads/2016/08/Spring-Rolls-22.jpg",
       "price": 16
     },
     {
@@ -627,7 +637,7 @@
       "categoryId": 7,
       "productName": "Grilled Shrimp",
       "ingredients": "Shrimp, garlic, lemon, olive oil",
-      "imageUrl": "grilled_shrimp.jpg",
+      "imageUrl": "https://www.acouplecooks.com/wp-content/uploads/2018/09/Grilled-Shrimp-006.jpg",
       "price": 22
     },
     {
@@ -635,7 +645,7 @@
       "categoryId": 7,
       "productName": "Lobster Bisque",
       "ingredients": "Lobster, cream, onions, herbs",
-      "imageUrl": "lobster_bisque.jpg",
+      "imageUrl": "https://www.tastingtable.com/img/gallery/rich-and-creamy-lobster-bisque-recipe/l-intro-1688145019.jpg",
       "price": 30
     },
     {
@@ -643,7 +653,7 @@
       "categoryId": 7,
       "productName": "Clam Linguine",
       "ingredients": "Clams, linguine, garlic, white wine",
-      "imageUrl": "clam_linguine.jpg",
+      "imageUrl": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipes%2F2022-10-no-shell-linguine-and-clams%2Fno-shell-linguine-and-clams-0382",
       "price": 26
     },
     {
@@ -651,7 +661,7 @@
       "categoryId": 7,
       "productName": "Salmon Sushi",
       "ingredients": "Salmon, rice, seaweed, soy sauce",
-      "imageUrl": "salmon_sushi.jpg",
+      "imageUrl": "https://hungryhealthyhappy.com/wp-content/uploads/2023/05/salmon-maki-featured.jpg",
       "price": 18
     },
     {
@@ -659,7 +669,7 @@
       "categoryId": 7,
       "productName": "Fish Tacos",
       "ingredients": "White fish, tortillas, coleslaw, lime",
-      "imageUrl": "fish_tacos.jpg",
+      "imageUrl": "https://www.allrecipes.com/thmb/_emMPu4gpcuCOoC0kfjRWIdHlmc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/53729-fish-tacos-DDMFS-4x3-b5547c67c6f0432da06ad8f905e82c1e.jpg",
       "price": 20
     },
     {
@@ -667,7 +677,7 @@
       "categoryId": 7,
       "productName": "Crab Cakes",
       "ingredients": "Crab meat, breadcrumbs, mayonnaise, spices",
-      "imageUrl": "crab_cakes.jpg",
+      "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/crab-cakes-index-64e7cee7d4dda.jpg?crop=0.8891500963202403xw:1xh;center,top&resize=1200:*",
       "price": 24
     },
     {
@@ -675,7 +685,7 @@
       "categoryId": 7,
       "productName": "Shrimp Scampi Pasta",
       "ingredients": "Shrimp, linguine, garlic, white wine",
-      "imageUrl": "shrimp_scampi_pasta.jpg",
+      "imageUrl": "https://www.allrecipes.com/thmb/jiV_4f8vXFle1RdFLgd8-_31J3M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/229960-shrimp-scampi-with-pasta-DDMFS-4x3-e065ddef4e6d44479d37b4523808cc23.jpg",
       "price": 28
     },
     {
@@ -683,7 +693,7 @@
       "categoryId": 7,
       "productName": "Seafood Paella",
       "ingredients": "Rice, shrimp, mussels, chorizo",
-      "imageUrl": "seafood_paella.jpg",
+      "imageUrl": "https://www.simplyrecipes.com/thmb/2GMHFcWEHZGOYbT4eoVCAu2uwsw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2018__07__Seafood-Paella-LEAD-VERTICAL-fc5f1e71baa8484cafa1a106ffaa9c23.jpg",
       "price": 32
     },
     {
@@ -691,7 +701,7 @@
       "categoryId": 7,
       "productName": "Tuna Poke Bowl",
       "ingredients": "Ahi tuna, rice, soy sauce, avocado",
-      "imageUrl": "tuna_poke_bowl.jpg",
+      "imageUrl": "https://www.onceuponachef.com/images/2018/07/tuna-poke.jpg",
       "price": 25
     },
     {
@@ -699,7 +709,7 @@
       "categoryId": 7,
       "productName": "Oysters Rockefeller",
       "ingredients": "Oysters, spinach, bacon, hollandaise sauce",
-      "imageUrl": "oysters_rockefeller.jpg",
+      "imageUrl": "https://www.skinnytaste.com/wp-content/uploads/2022/11/Oysters-Rockefeller-5.jpg",
       "price": 35
     },
     {
@@ -707,15 +717,16 @@
       "categoryId": 7,
       "productName": "Grilled Octopus",
       "ingredients": "Octopus, olive oil, garlic, lemon",
-      "imageUrl": "grilled_octopus.jpg",
-      "price": 30
+      "imageUrl": "https://jesspryles.com/wp-content/uploads/2020/06/grilled-octopus-59-1-scaled.jpg",
+      "price": 30,
+      "mostLiked": true
     },
     {
       "id": 84,
       "categoryId": 7,
       "productName": "Cajun Shrimp Boil",
       "ingredients": "Shrimp, corn, potatoes, Cajun spices",
-      "imageUrl": "cajun_shrimp_boil.jpg",
+      "imageUrl": "https://www.butterbeready.com/wp-content/uploads/2023/06/DK6A2439.jpg",
       "price": 28
     },
     {
@@ -723,7 +734,7 @@
       "categoryId": 8,
       "productName": "Vegetarian Pizza",
       "ingredients": "Pizza dough, tomato sauce, cheese, vegetables",
-      "imageUrl": "vegetarian_pizza.jpg",
+      "imageUrl": "https://cdn.loveandlemons.com/wp-content/uploads/2023/02/vegetarian-pizza.jpg",
       "price": 18
     },
     {
@@ -731,7 +742,7 @@
       "categoryId": 8,
       "productName": "Eggplant Lasagna",
       "ingredients": "Eggplant, marinara sauce, ricotta, mozzarella",
-      "imageUrl": "eggplant_lasagna.jpg",
+      "imageUrl": "https://www.prairiefarms.com/wp-content/uploads/files/2023/Roasted-Red-Pepper-Eggplant-Lasagna-Recipe.jpg",
       "price": 20
     },
     {
@@ -739,7 +750,7 @@
       "categoryId": 8,
       "productName": "Quinoa Stuffed Bell Peppers",
       "ingredients": "Quinoa, bell peppers, black beans, corn",
-      "imageUrl": "quinoa_stuffed_peppers.jpg",
+      "imageUrl": "https://www.thespruceeats.com/thmb/FC1kDitBHn08teDrh-gkYeg27VA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/quinoa-stuffed-peppers-2238585-08-43c24df24a3e4aa8991d22337e1ded40.jpg",
       "price": 16
     },
     {
@@ -747,7 +758,7 @@
       "categoryId": 8,
       "productName": "Vegetable Curry",
       "ingredients": "Mixed vegetables, curry sauce, rice",
-      "imageUrl": "vegetable_curry.jpg",
+      "imageUrl": "https://www.indianhealthyrecipes.com/wp-content/uploads/2023/07/vegetable-curry-recipe.jpg",
       "price": 22
     },
     {
@@ -755,7 +766,7 @@
       "categoryId": 8,
       "productName": "Portobello Mushroom Burger",
       "ingredients": "Portobello mushrooms, buns, cheese, lettuce",
-      "imageUrl": "portobello_burger.jpg",
+      "imageUrl": "https://cdn.loveandlemons.com/wp-content/uploads/2019/06/portabello-mushroom-burger-recipe.jpg",
       "price": 17
     },
     {
@@ -763,7 +774,7 @@
       "categoryId": 8,
       "productName": "Spinach and Feta Stuffed Tomatoes",
       "ingredients": "Tomatoes, spinach, feta cheese, herbs",
-      "imageUrl": "spinach_feta_tomatoes.jpg",
+      "imageUrl": "https://lifeloveandgoodfood.com/wp-content/uploads/2023/06/Spinach-Stuffed-Tomatoes-16-1200x1200-1.jpg",
       "price": 15
     },
     {
@@ -771,7 +782,7 @@
       "categoryId": 8,
       "productName": "Vegetable Stir-Fry Noodles",
       "ingredients": "Vegetables, noodles, soy sauce, sesame oil",
-      "imageUrl": "vegetable_stir_fry_noodles.jpg",
+      "imageUrl": "https://elavegan.com/wp-content/uploads/2020/10/eating-vegetable-stir-fry-noodles-with-chopsticks.jpg",
       "price": 18
     },
     {
@@ -779,7 +790,7 @@
       "categoryId": 8,
       "productName": "Caprese Zucchini Boats",
       "ingredients": "Zucchini, tomatoes, mozzarella, balsamic glaze",
-      "imageUrl": "caprese_zucchini_boats.jpg",
+      "imageUrl": "https://fruitsandveggies.org/wp-content/uploads/2021/06/Zucchini-Boats-Meghan-Sedivy-407x320.jpg",
       "price": 16
     },
     {
@@ -787,7 +798,7 @@
       "categoryId": 8,
       "productName": "Sweet Potato and Black Bean Quesadillas",
       "ingredients": "Sweet potatoes, black beans, tortillas, cheese",
-      "imageUrl": "sweet_potato_qeusadillas.jpg",
+      "imageUrl": "https://www.carharttfamilywines.com/wp-content/uploads/2021/09/Desktop.png",
       "price": 20
     },
     {
@@ -795,7 +806,7 @@
       "categoryId": 8,
       "productName": "Mushroom Risotto",
       "ingredients": "Arborio rice, mushrooms, onions, Parmesan",
-      "imageUrl": "mushroom_risotto.jpg",
+      "imageUrl": "https://cdn.loveandlemons.com/wp-content/uploads/2023/01/mushroom-risotto.jpg",
       "price": 24
     },
     {
@@ -803,7 +814,7 @@
       "categoryId": 8,
       "productName": "Vegetarian Tacos",
       "ingredients": "Black beans, tortillas, avocado, salsa",
-      "imageUrl": "vegetarian_tacos.jpg",
+      "imageUrl": "https://cdn.loveandlemons.com/wp-content/uploads/2015/09/vegetarian-tacos.jpg",
       "price": 15
     },
     {
@@ -811,7 +822,7 @@
       "categoryId": 8,
       "productName": "Zucchini Noodles with Pesto",
       "ingredients": "Zucchini noodles, pesto, cherry tomatoes",
-      "imageUrl": "zucchini_noodles_pesto.jpg",
+      "imageUrl": "https://www.eatingwell.com/thmb/L7-wBx0puzOiO8F-k6FoWxrdq1Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/5528725-0a8046e2f56446e9b9b946161d74454c.jpg",
       "price": 16
     },
     {
@@ -819,15 +830,16 @@
       "categoryId": 9,
       "productName": "Spaghetti Bolognese",
       "ingredients": "Ground beef, tomatoes, garlic, pasta",
-      "imageUrl": "spaghetti_bolognese.jpg",
-      "price": 18
+      "imageUrl": "https://recipetineats.com/wp-content/uploads/2018/07/Spaghetti-Bolognese.jpg",
+      "price": 18,
+      "mostLiked": true
     },
     {
       "id": 98,
       "categoryId": 9,
       "productName": "Chicken Alfredo Pasta",
       "ingredients": "Chicken, fettuccine, Alfredo sauce",
-      "imageUrl": "chicken_alfredo_pasta.jpg",
+      "imageUrl": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipes%2F2023-06-chicken-alfredo-pasta-reshoot%2Fchicken-alfredo-pasta-2-vertical",
       "price": 22
     },
     {
@@ -835,7 +847,7 @@
       "categoryId": 9,
       "productName": "Pesto Shrimp Linguine",
       "ingredients": "Shrimp, linguine, pesto sauce",
-      "imageUrl": "pesto_shrimp_linguine.jpg",
+      "imageUrl": "https://www.walderwellness.com/wp-content/uploads/2019/08/Pesto-Linguine-Pasta-With-Shrimp-Walder-Wellness-4.jpg",
       "price": 24
     },
     {
@@ -843,7 +855,7 @@
       "categoryId": 9,
       "productName": "Vegetarian Lasagna",
       "ingredients": "Zucchini, bell peppers, ricotta, marinara sauce",
-      "imageUrl": "vegetarian_lasagna.jpg",
+      "imageUrl": "https://recipetineats.com/wp-content/uploads/2019/02/Vegetable-Lasagna_10.jpg",
       "price": 20
     },
     {
@@ -851,7 +863,7 @@
       "categoryId": 9,
       "productName": "Carbonara",
       "ingredients": "Pancetta, eggs, Parmesan, spaghetti",
-      "imageUrl": "carbonara.jpg",
+      "imageUrl": "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/0346a29a89ef229b1a0ff9697184f944/Derivates/cb5051204f4a4525c8b013c16418ae2904e737b7.jpg",
       "price": 16
     },
     {
@@ -859,7 +871,7 @@
       "categoryId": 9,
       "productName": "Seafood Linguine",
       "ingredients": "Assorted seafood, linguine, white wine sauce",
-      "imageUrl": "seafood_linguine.jpg",
+      "imageUrl": "https://images.immediate.co.uk/production/volatile/sites/2/2023/03/Seafood-linguine-b70ceb5.jpg?resize=768,574",
       "price": 28
     },
     {
@@ -867,7 +879,7 @@
       "categoryId": 9,
       "productName": "Mushroom Ravioli",
       "ingredients": "Mushroom-filled ravioli, cream sauce",
-      "imageUrl": "mushroom_ravioli.jpg",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5d40bab35dafc600012f85c2/1581700233688-6KMQLRJIUH44NU2V8VHM/mushroom%2Bravioli%2B2.jpg?format=2500w",
       "price": 21
     },
     {
@@ -875,7 +887,7 @@
       "categoryId": 9,
       "productName": "Chicken Pesto Penne",
       "ingredients": "Chicken, penne pasta, pesto sauce",
-      "imageUrl": "chicken_pesto_penne.jpg",
+      "imageUrl": "https://www.eatingwell.com/thmb/a7XXv_7u3MF8fbWQ1uiAJnuI-34=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/5226976-585102095ca64af080c6ce721a40a122.jpg",
       "price": 23
     },
     {
@@ -883,7 +895,7 @@
       "categoryId": 9,
       "productName": "Spicy Arrabbiata",
       "ingredients": "Tomatoes, red pepper flakes, garlic, penne pasta",
-      "imageUrl": "spicy_arrabbiata.jpg",
+      "imageUrl": "https://thetableofspice.com/wp-content/uploads/2020/04/DSC_5393.jpg",
       "price": 17
     },
     {
@@ -891,7 +903,7 @@
       "categoryId": 9,
       "productName": "Butternut Squash Ravioli",
       "ingredients": "Butternut squash-filled ravioli, sage butter sauce",
-      "imageUrl": "butternut_squash_ravioli.jpg",
+      "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/20190725-delish-butternut-squash-ravioli-ehg-horizontal-3-1565301913.png?crop=0.6666666666666667xw:1xh;center,top&resize=1200:*",
       "price": 19
     },
     {
@@ -899,7 +911,7 @@
       "categoryId": 9,
       "productName": "Lemon Garlic Shrimp Pasta",
       "ingredients": "Shrimp, linguine, lemon, garlic",
-      "imageUrl": "lemon_garlic_shrimp_pasta.jpg",
+      "imageUrl": "https://pinchandswirl.com/wp-content/uploads/2020/06/Lemon-Garlic-Shrimp-Pasta_.jpg",
       "price": 26
     },
     {
@@ -907,7 +919,7 @@
       "categoryId": 9,
       "productName": "Cajun Chicken Penne",
       "ingredients": "Chicken, penne pasta, Cajun spices",
-      "imageUrl": "cajun_chicken_penne.jpg",
+      "imageUrl": "https://www.cookingclassy.com/wp-content/uploads/2021/07/cajun-chicken-pasta-02.jpg",
       "price": 25
     },
     {
@@ -915,15 +927,16 @@
       "categoryId": 10,
       "productName": "Cheeseburger",
       "ingredients": "Beef patty, cheese, lettuce, tomato, bun",
-      "imageUrl": "cheeseburger.jpg",
-      "price": 12
+      "imageUrl": "https://cdn.yemek.com/mnresize/1250/833/uploads/2019/06/cheeseburger-one-cikan-yemekcom.jpg",
+      "price": 12,
+      "mostLiked": true
     },
     {
       "id": 110,
       "categoryId": 10,
       "productName": "Chicken Nuggets",
       "ingredients": "Chicken breast, breadcrumbs, dipping sauce",
-      "imageUrl": "chicken_nuggets.jpg",
+      "imageUrl": "https://www.skinnytaste.com/wp-content/uploads/2023/09/Chicken-Nuggets-10.jpg",
       "price": 8
     },
     {
@@ -931,7 +944,7 @@
       "categoryId": 10,
       "productName": "Margherita Pizza",
       "ingredients": "Pizza dough, tomato sauce, mozzarella, basil",
-      "imageUrl": "margherita_pizza.jpg",
+      "imageUrl": "https://images.prismic.io/eataly-us/ed3fcec7-7994-426d-a5e4-a24be5a95afd_pizza-recipe-main.jpg?auto=compress,format",
       "price": 14
     },
     {
@@ -939,7 +952,7 @@
       "categoryId": 10,
       "productName": "Hot Dog",
       "ingredients": "Frankfurter, bun, ketchup, mustard",
-      "imageUrl": "hot_dog.jpg",
+      "imageUrl": "https://cdn.yemek.com/mnresize/1250/833/uploads/2022/10/hot-dog-sunum-yemekcom.jpg",
       "price": 10
     },
     {
@@ -947,7 +960,7 @@
       "categoryId": 10,
       "productName": "Fish and Chips",
       "ingredients": "Fish fillet, fries, tartar sauce",
-      "imageUrl": "fish_and_chips.jpg",
+      "imageUrl": "https://i.lezzet.com.tr/images-xxlarge-recipe/fish-and-chips-e4e1406c-5b22-4832-85fb-53ca1b7b468b.jpg",
       "price": 16
     },
     {
@@ -955,15 +968,16 @@
       "categoryId": 10,
       "productName": "BBQ Pulled Pork Sandwich",
       "ingredients": "Pulled pork, BBQ sauce, coleslaw, bun",
-      "imageUrl": "bbq_pulled_pork_sandwich.jpg",
-      "price": 18
+      "imageUrl": "https://carlsbadcravings.com/wp-content/uploads/2018/01/BBQ-Pulled-Pork-1.jpg",
+      "price": 18,
+      "mostLiked": true
     },
     {
       "id": 115,
       "categoryId": 10,
       "productName": "Taco Supreme",
       "ingredients": "Ground beef, lettuce, cheese, tortilla",
-      "imageUrl": "taco_supreme.jpg",
+      "imageUrl": "https://brandsitesplatform-res.cloudinary.com/image/fetch/w_1540,c_scale,q_auto:eco,f_auto,fl_lossy,dpr_1.0,e_sharpen:85/https://assets.brandplatform.generalmills.com%2F-%2Fmedia%2Fproject%2Fgmi%2Foldelpaso%2Foldelpaso-ca%2Frecipes%2Ftacos-supreme.jpg%3Fw%3D800%26rev%3D727db5d2f3bd4fbeb9500c9bf538986d%201540w",
       "price": 12
     },
     {
@@ -971,7 +985,7 @@
       "categoryId": 10,
       "productName": "Chicken Quesadilla",
       "ingredients": "Chicken, cheese, tortilla, salsa",
-      "imageUrl": "chicken_quesadilla.jpg",
+      "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/chicken-quesadilla-index-64515c8e98e28.jpg?crop=1xw:0.9994669509594882xh;center,top&resize=1200:*",
       "price": 15
     },
     {
@@ -979,7 +993,7 @@
       "categoryId": 10,
       "productName": "Pepperoni Pizza",
       "ingredients": "Pizza dough, tomato sauce, pepperoni, cheese",
-      "imageUrl": "pepperoni_pizza.jpg",
+      "imageUrl": "https://i.nefisyemektarifleri.com/2022/09/30/pepperoni-nedir-hangi-etten-nasil-yapilir-3.jpg",
       "price": 14
     },
     {
@@ -987,7 +1001,7 @@
       "categoryId": 10,
       "productName": "Chicken Burger",
       "ingredients": "Chicken patty, lettuce, tomato, bun",
-      "imageUrl": "chicken_burger.jpg",
+      "imageUrl": "https://www.kimscravings.com/wp-content/uploads/2022/06/Chicken-Burgers-5.jpg",
       "price": 13
     },
     {
@@ -995,7 +1009,7 @@
       "categoryId": 10,
       "productName": "Chili Cheese Fries",
       "ingredients": "Fries, chili, cheese sauce",
-      "imageUrl": "chili_cheese_fries.jpg",
+      "imageUrl": "https://belleofthekitchen.com/wp-content/uploads/2021/08/chili-cheese-fries-square-1.jpg",
       "price": 10
     },
     {
@@ -1003,7 +1017,7 @@
       "categoryId": 10,
       "productName": "Veggie Wrap",
       "ingredients": "Assorted vegetables, tortilla, hummus",
-      "imageUrl": "veggie_wrap.jpg",
+      "imageUrl": "https://www.acouplecooks.com/wp-content/uploads/2023/02/Veggie-Wrap-002.jpg",
       "price": 12
     }
   ]

@@ -36,6 +36,7 @@
 
 .product-item-container:hover .productImage,
 .product-item-container:hover .productName,
+.product-item-container:hover .productStar,
 .product-item-container:hover .productPrice {
   display: none;
 }

@@ -22,7 +22,7 @@ export default class Navigation extends Component {
             size="sm"
             label={
               <>
-                <FaUser className="mr-1" /> Account
+                <FaUser className="mr-1" /> Admin
               </>
             }
             dismissOnClick={false}
@@ -30,9 +30,6 @@ export default class Navigation extends Component {
             <Link to="/admin">
               <Dropdown.Item>Dashboard</Dropdown.Item>
             </Link>
-            <Dropdown.Item>Settings</Dropdown.Item>
-            <Dropdown.Item>Earnings</Dropdown.Item>
-            <Dropdown.Item>Sign out</Dropdown.Item>
           </Dropdown>
         </div>
       </div>
