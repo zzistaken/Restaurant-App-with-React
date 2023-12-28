@@ -1,3 +1,7 @@
+![](Main_Page_Review.png)
+![](Cart_Page_Review.png)
+![](Admin_Page_Review.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

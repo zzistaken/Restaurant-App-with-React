@@ -928,8 +928,7 @@
       "productName": "Cheeseburger",
       "ingredients": "Beef patty, cheese, lettuce, tomato, bun",
       "imageUrl": "https://cdn.yemek.com/mnresize/1250/833/uploads/2019/06/cheeseburger-one-cikan-yemekcom.jpg",
-      "price": 12,
-      "mostLiked": true
+      "price": "13"
     },
     {
       "id": 110,
