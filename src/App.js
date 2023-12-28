@@ -7,6 +7,8 @@ import Cart from "./Pages/Cart/Cart";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import NotFound from "./Pages/Error/NotFound";
 import Dashboard from "./Pages/Admin/Dashboard";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export default class App extends Component {
   state = {
@@ -89,6 +91,16 @@ export default class App extends Component {
     this.setState({ cart: newCart }, () => {
       this.calculateTotalCost();
     });
+    toast.success(product.productName +" added to cart!", {
+      position: "bottom-right",
+      autoClose: 1000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+    });
   };
 
   removeFromCart = (product) => {
@@ -96,11 +108,31 @@ export default class App extends Component {
     this.setState({ cart: newCart }, () => {
       this.calculateTotalCost();
     });
+    toast.warn(product.productName +" removed to cart!", {
+      position: "bottom-right",
+      autoClose: 1000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+    });
   };
 
   clearCart = () => {
     this.setState({ cart: [] }, () => {
       this.calculateTotalCost();
+    });
+    toast.error("Cart cleared!", {
+      position: "bottom-right",
+      autoClose: 1000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
     });
   };
 
@@ -126,6 +158,7 @@ export default class App extends Component {
             removeFromCart={this.removeFromCart}
             clearCart={this.clearCart}
           />
+          <ToastContainer />
           <Routes>
             <Route
               path="/"
